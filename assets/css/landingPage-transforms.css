@@ -1,6 +1,28 @@
 /*- 1 - BASE --- */
 
 /* Helper Classes */
+@import url(https://fonts.googleapis.com/css?family=Audiowide);
+
+
+
+ .contact-information {
+	transition: all 1s ease-in-out;
+	background-color: red;
+	
+/* h1: :hover {
+	transition: all 2s ease-in-out;
+	color: red; */
+
+
+
+
+
+}
+
+#contact-information: :hover {
+	-webkit-transform: rotate(1deg)
+	
+}
 
 .clearfix:after {
 	content: "";
@@ -31,9 +53,33 @@ body {
 	margin: 0;
 }
 
-body>header h1, body>header .tagline, body>header section, body>footer {
+li {
+	animation-duration: 4s;
+}
+
+body>header h1:hover, body>header .tagline:hover, body>header section:hover, body>footer:hover {
+	
 	padding-left: 1em;
 	padding-right: 1em;
+	transition: all 3s ease-in-out;
+	color: white;
+	text-shadow: 
+  1px 1px 0 rgba(36,117,203,1),
+  13px 3px 0 rgba(36,117,203,0.9),
+  5px 5px 0 rgba(36,117,203,0.8),
+  17px 7px 0 rgba(36,117,203,0.7),
+  9px -15px 0 rgba(36,117,203,0.6),
+  -11px 11px 0 rgba(36,117,203,0.5),
+  7px -13px 0 rgba(36,117,203,0.4),
+  15px 30px 0 rgba(36,117,203,0.3),
+  -20px 17px 0 rgba(36,117,203,0.2),
+  -19px 19px 0 rgba(36,117,203,0.1),
+  30px -21px 0 rgba(36,117,203,0.08),
+  23px 23px 0 rgba(36,117,203,0.06),
+  -25px 40px 0 rgba(36,117,203,0.04),
+  27px 27px 0 rgba(36,117,203,0.02),
+  -29px 29px 0 rgba(36,117,203,0.0);
+	
 }
 
 main {
@@ -58,6 +104,7 @@ body {
 
 .social-media-links dt {
 	font-weight: 600;
+	color: red;
 }
 
 body>header, body>footer {
@@ -99,6 +146,8 @@ main>section, article {
 
 .major-navigation li {
 	margin-right: 24px;
+	animation-duration: 4s;
+	transition: all 3s ease-in-out;
 }
 
 .major-navigation > ul a {
