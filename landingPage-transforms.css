@@ -1,0 +1,15 @@
+
+#about-me {
+    transition: all 1s ease-out;
+    transform: skew(10deg, 5deg);
+    font-size: 30px;
+    color: aqua;
+    
+}
+
+#portfolio-pieces {
+    transition: margin-right 2s ease-in-out;
+    transform: rotate(0.01turn);
+    font-size: 30px;
+    color: blue;
+}
